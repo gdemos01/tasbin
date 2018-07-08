@@ -1,5 +1,5 @@
 <p align="center">
-  <img height="30%" src="https://github.com/gdemos01/tasbin/blob/master/Website/tasbin_logo_final.png">
+  <img width="30%" height="30%" src="https://github.com/gdemos01/tasbin/blob/master/Website/tasbin_logo_final.png">
   <h3>Smart trash detection and collection in cities</h3>
 </p>
 
