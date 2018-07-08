@@ -16,10 +16,13 @@ from utils import label_map_util
 
 
 # The raw video of the trash recorded by a Smartphone
-cap = cv2.VideoCapture('trash_vid_1.mp4')
+cap = cv2.VideoCapture('trash_vid_3.mp4')
+
+frame_width = 1080
+frame_height = 720
 
 # The output video with the trash detection to be exported
-out = cv2.VideoWriter('trash_demo_out.avi', cv2.VideoWriter_fourcc('M', 'J', 'P', 'G'), 10, (800, 600))
+out = cv2.VideoWriter('trash_demo_out.avi', cv2.VideoWriter_fourcc('M', 'J', 'P', 'G'), 10, (frame_width, frame_height))
 
 # The Model to load
 MODEL_NAME = 'trash_graph'
@@ -121,9 +124,9 @@ while (cap.isOpened()):
           instance_masks=output_dict.get('detection_masks'),
           use_normalized_coordinates=True,
           line_thickness=8)
-      cv2.imshow('Trash Detected',cv2.resize(image_np,(800,600)))
+      cv2.imshow('Trash Detected',cv2.resize(image_np,(frame_width,frame_height)))
       # Write the frame into the file 'trash_demo_out.avi'
-      out.write(cv2.resize(image_np,(800,600)))
+      out.write(cv2.resize(image_np,(frame_width,frame_height)))
 
       if cv2.waitKey(25) & 0XFF == ord('q'):
           cv2.destroyAllWindows()
