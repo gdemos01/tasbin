@@ -20,3 +20,8 @@ In addition, it can help in detecting areas were trash piles up, but not collect
 *	Communities that care about their citizens
 *	Trash collecting companies that care about reducing their costs
 *	Tourism organizations, that care about sending the right image to the tourists about a clean and smart city. 
+
+## Video Demo: https://youtu.be/2YOnttqRvnA
+
+
+## Website: http://46.101.35.245/
