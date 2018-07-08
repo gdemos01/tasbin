@@ -1,0 +1,26 @@
+<annotation>
+  <folder>Images</folder>
+  <filename>images (32)</filename>
+  <path>C:\Users\gdemos01\Desktop\REAL\Images\images (32).jpg</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>252</width>
+    <height>200</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>Trash</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>65</xmin>
+      <ymin>31</ymin>
+      <xmax>179</xmax>
+      <ymax>177</ymax>
+    </bndbox>
+  </object>
+</annotation>
