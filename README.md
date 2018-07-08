@@ -1,6 +1,8 @@
-# Tasbin
-Smart trash detection and collection in cities
-
+![alt text](https://github.com/gdemos01/tasbin/blob/master/Website/tasbin_logo_final.png)
+<p align="center">
+  <img width="460" height="300" src="https://github.com/gdemos01/tasbin/blob/master/Website/tasbin_logo_final.png">
+  ### Smart trash detection and collection in cities
+</p>
 
 ## Abstract
 Tasbin uses deep learning to detect piles of trash in the streets of a city. Specifically, it makes use of convolutional neural networks implemented in Google's Tensorflow machine learning library to detect, in real time, trash on the city grounds. 
