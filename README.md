@@ -1,7 +1,6 @@
-![alt text](https://github.com/gdemos01/tasbin/blob/master/Website/tasbin_logo_final.png)
 <p align="center">
-  <img width="460" height="300" src="https://github.com/gdemos01/tasbin/blob/master/Website/tasbin_logo_final.png">
-  ### Smart trash detection and collection in cities
+  <img height="30%" src="https://github.com/gdemos01/tasbin/blob/master/Website/tasbin_logo_final.png">
+  <h3>Smart trash detection and collection in cities</h3>
 </p>
 
 ## Abstract
